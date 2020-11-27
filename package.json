@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-11-1.promise/",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-promise/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maksym-slinchenko/goit-js-hw-11-1.promise"
+    "url": "git+https://github.com/maksym-slinchenko/goit-js-hw-11-promise"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/parcel-deploy-tutorial/issues"
   },
-  "homepage": "https://maksym-slinchenko.github.io/goit-js-hw-11-1.promise",
+  "homepage": "https://maksym-slinchenko.github.io/goit-js-hw-11-promise",
   "devDependencies": {
     "handlebars-loader": "^1.7.1",
     "parcel-bundler": "^1.12.4",
