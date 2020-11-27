@@ -15,4 +15,4 @@ var n=function(n,t){return Math.floor(Math.random()*(t-n+1)+n)},t=function(t){re
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./css/styles.css"),require("./js/index1"),require("./js/index2"),require("./js/index3");
 },{"./css/styles.css":"krre","./js/index1":"H4OS","./js/index2":"DP3g","./js/index3":"ReQy"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-1.promise/src.3bff8901.js.map
+//# sourceMappingURL=/goit-js-hw-11-promise/src.3bff8901.js.map
