@@ -7,10 +7,11 @@ import getTemplate from "../temlates/page-layout.hbs";
 
 const delay = (ms) => {
   return new Promise((resolve, reject) => {
-    setTimeout(resolve(ms), ms);
-    reject(`error`);
+    setTimeout(() => {
+      resolve(ms);
+      reject(`error`);
+    }, ms);
   });
-  // Твой код
 };
 
 const logger = (time) => console.log(`Resolved after ${time}ms`);
